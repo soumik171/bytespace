@@ -1,30 +1,77 @@
-:root {
+@import "tailwindcss";
+
+@theme {
   /* Brand Primary Colors ("Persian Blue") */
+  --color-primary-50: #e7f6ff;
+  --color-primary-100: #d3eeff;
+  --color-primary-200: #b0ddff;
+  --color-primary-300: #81c5ff;
+  --color-primary-400: #4f9dff;
+  --color-primary-500: #2872ff;
+  --color-primary-600: #0445ff;
+  --color-primary-700: #0043ff;
+  --color-primary-800: #003be2;
+  --color-primary-900: #0b36a4;
+  --color-primary-950: #071e5f;
+
+  /* Brand Accent Colors ("Electric Lime") */
+  --color-accent-50: #fdffe4;
+  --color-accent-100: #faffc5;
+  --color-accent-200: #f2ff92;
+  --color-accent-300: #e4ff54;
+  --color-accent-400: #d4fb20;
+  --color-accent-500: #cbfc01;
+  --color-accent-600: #8cb400;
+  --color-accent-700: #6a8902;
+  --color-accent-800: #546b09;
+  --color-accent-950: #243300;
+
+  /* Neutral Colors & Surfaces */
+  --color-neutral-white: #ffffff;
+  --color-neutral-50: #f5f5f6;
+  --color-neutral-100: #e5e6e8;
+  --color-neutral-200: #ced0d3;
+  --color-neutral-300: #abaeb5;
+  --color-neutral-400: #82868e;
+  --color-neutral-500: #666973;
+  --color-neutral-600: #585a62;
+  --color-neutral-700: #4b4c53;
+  --color-neutral-800: #424348;
+  --color-neutral-900: #3a3b3f;
+  --color-neutral-950: #242528;
+  --color-neutral-black: #000000;
+  --color-dark-bg: #0f1015;
+
+  /* Fonts */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Satoshi', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+  /* Standard CSS fallback variables */
   --primary-50: #e7f6ff;
   --primary-100: #d3eeff;
   --primary-200: #b0ddff;
   --primary-300: #81c5ff;
   --primary-400: #4f9dff;
   --primary-500: #2872ff;
-  --primary-600: #0445ff; /* Core Brand Blue */
+  --primary-600: #0445ff;
   --primary-700: #0043ff;
   --primary-800: #003be2;
   --primary-900: #0b36a4;
   --primary-950: #071e5f;
 
-  /* Brand Accent Colors ("Electric Lime") */
   --accent-50: #fdffe4;
   --accent-100: #faffc5;
   --accent-200: #f2ff92;
   --accent-300: #e4ff54;
   --accent-400: #d4fb20;
-  --accent-500: #cbfc01; /* Core Accent Lime */
+  --accent-500: #cbfc01;
   --accent-600: #8cb400;
   --accent-700: #6a8902;
   --accent-800: #546b09;
   --accent-950: #243300;
 
-  /* Neutral Colors ("Shuttle Gray" & Surfaces) */
   --neutral-white: #ffffff;
   --neutral-50: #f5f5f6;
   --neutral-100: #e5e6e8;
@@ -36,25 +83,20 @@
   --neutral-700: #4b4c53;
   --neutral-800: #424348;
   --neutral-900: #3a3b3f;
-  --neutral-950: #242528; /* Dark Surface */
+  --neutral-950: #242528;
   --neutral-black: #000000;
   --dark-bg: #0f1015;
 
-  /* Semantic Variables */
   --bg-page: #ffffff;
   --bg-subtle: #f8fafc;
-  --bg-surface: #ffffff;
   --border-light: #e5e6e8;
   --text-main: #242528;
   --text-muted: #666973;
   --text-light: #82868e;
-  --text-inverse: #ffffff;
 
-  /* Typography */
   --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Satoshi', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
-  /* Spacing & Layout */
   --container-max-width: 1280px;
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -62,29 +104,18 @@
   --radius-xl: 32px;
   --radius-full: 9999px;
 
-  /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
   --shadow-lg: 0 12px 28px rgba(4, 69, 255, 0.08), 0 4px 10px rgba(0, 0, 0, 0.04);
   --shadow-hover: 0 16px 36px rgba(4, 69, 255, 0.12), 0 6px 12px rgba(0, 0, 0, 0.05);
 
-  /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* CSS Reset & Defaults */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
+/* Base Styles */
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -96,12 +127,6 @@ body {
   min-height: 100vh;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
@@ -110,53 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-h1 {
-  font-size: clamp(2.25rem, 5vw, 4rem);
-  letter-spacing: -0.02em;
-}
-
-h2 {
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
-  letter-spacing: -0.015em;
-}
-
-h3 {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-p {
-  color: var(--text-muted);
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  transition: color var(--transition-fast);
-}
-
-button {
-  font-family: inherit;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: none;
-}
-
-input, select, textarea {
-  font-family: inherit;
-  font-size: inherit;
-}
-
-img, svg {
-  display: block;
-  max-width: 100%;
-}
-
-/* Container Utility */
+/* Layout Container */
 .container {
   width: 100%;
   max-width: var(--container-max-width);

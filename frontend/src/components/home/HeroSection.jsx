@@ -30,55 +30,55 @@ export default function HeroSection({ onSearch }) {
         md  = lg × (768/1024) ≈ 0.75
         ────────────────────────────────────────────────────────────────────── */}
 
-      {/* 1. Left Big Lemon Spiral — lg:290px, bleeds off-left edge */}
+      {/* 1. Left Big Lemon Spiral — xl:290px, bleeds off-left edge */}
       <img
         src={leftBigSpiral}
         alt=""
         aria-hidden="true"
-        className="absolute left-0 top-[3%] w-[181px] sm:w-[218px] lg:w-[290px] object-contain pointer-events-none z-10"
+        className="absolute left-0 top-[3%] w-[95px] sm:w-[140px] md:w-[190px] lg:w-[240px] xl:w-[290px] object-contain pointer-events-none z-10"
         style={{ transform: "translateX(-1%)" }}
       />
 
-      {/* 2. Left Small White Spiral — lg:220px, mid-left inset */}
+      {/* 2. Left Small White Spiral — xl:230px, mid-left inset */}
       <img
         src={leftSmallSpiral}
         alt=""
         aria-hidden="true"
-        className="absolute left-[10%] sm:left-[11%] lg:left-[12%] top-[38%] w-[138px] sm:w-[165px] lg:w-[230px] object-contain pointer-events-none z-10"
+        className="absolute left-[4%] sm:left-[7%] md:left-[9%] lg:left-[10%] xl:left-[12%] top-[38%] w-[70px] sm:w-[105px] md:w-[145px] lg:w-[185px] xl:w-[230px] object-contain pointer-events-none z-10"
       />
 
-      {/* 3. Left White Donut Ring — lg:290px, lower-left bleeds */}
+      {/* 3. Left White Donut Ring — xl:350px, lower-left bleeds */}
       <img
         src={leftDonut}
         alt=""
         aria-hidden="true"
-        className="absolute left-0 bottom-[10%] w-[181px] sm:w-[218px] lg:w-[350px] object-contain pointer-events-none z-10"
+        className="absolute left-0 bottom-[10%] w-[110px] sm:w-[160px] md:w-[220px] lg:w-[285px] xl:w-[350px] object-contain pointer-events-none z-10"
         style={{ transform: "translateX(8%) translateY(20%)" }}
       />
 
-      {/* 4. Right Lemon Cane Cylinder — lg:200px, bleeds off-right */}
+      {/* 4. Right Lemon Cane Cylinder — xl:200px, bleeds off-right */}
       <img
         src={rightCane}
         alt=""
         aria-hidden="true"
-        className="absolute right-0 top-[3%] w-[125px] sm:w-[150px] lg:w-[200px] object-contain pointer-events-none z-10"
+        className="absolute right-0 top-[3%] w-[70px] sm:w-[105px] md:w-[140px] lg:w-[170px] xl:w-[200px] object-contain pointer-events-none z-10"
         style={{ transform: "translateX(5%)" }}
       />
 
-      {/* 5. Right White Triangle Prism — lg:220px, mid-right inset */}
+      {/* 5. Right White Triangle Prism — xl:220px, mid-right inset */}
       <img
         src={rightTriangle}
         alt=""
         aria-hidden="true"
-        className="absolute right-[10%] sm:right-[11%] lg:right-[12%] top-[38%] w-[138px] sm:w-[165px] lg:w-[220px] object-contain pointer-events-none z-10"
+        className="absolute right-[4%] sm:right-[7%] md:right-[9%] lg:right-[10%] xl:right-[12%] top-[38%] w-[70px] sm:w-[105px] md:w-[145px] lg:w-[180px] xl:w-[220px] object-contain pointer-events-none z-10"
       />
 
-      {/* 6. Right Big White Spiral — lg:266px, lower-right bleeds */}
+      {/* 6. Right Big White Spiral — xl:350px, lower-right bleeds */}
       <img
         src={rightBigSpiral}
         alt=""
         aria-hidden="true"
-        className="absolute right-0 bottom-[10%] w-[166px] sm:w-[200px] lg:w-[350px] object-contain pointer-events-none z-10"
+        className="absolute right-0 bottom-[10%] w-[110px] sm:w-[160px] md:w-[220px] lg:w-[285px] xl:w-[350px] object-contain pointer-events-none z-10"
         style={{ transform: "translateX(0%) translateY(22%)" }}
       />
 

@@ -21,7 +21,7 @@ export default function CreatorCtaSection() {
         src={leftSpiralLemon}
         alt=""
         aria-hidden="true"
-        className="absolute -left-[20px] sm:-left-[30px] lg:-left-[5px] -top-[15px] sm:-top-[10px] w-[135px] sm:w-[175px] md:w-[210px] lg:w-[260px] object-contain pointer-events-none z-10"
+        className="absolute -left-[15px] sm:-left-[25px] md:-left-[20px] lg:-left-[10px] xl:-left-[5px] -top-[10px] sm:-top-[10px] w-[85px] sm:w-[125px] md:w-[170px] lg:w-[215px] xl:w-[260px] object-contain pointer-events-none z-10"
       />
 
       {/* 2. Top-Left Inner White Spiral */}
@@ -29,7 +29,7 @@ export default function CreatorCtaSection() {
         src={leftSpiralWhite}
         alt=""
         aria-hidden="true"
-        className="absolute left-[85px] sm:left-[130px] md:left-[160px] lg:left-[205px] top-[10px] sm:top-[16px] lg:top-[30px] w-[88px] sm:w-[115px] md:w-[135px] lg:w-[160px] object-contain pointer-events-none z-10"
+        className="absolute left-[40px] sm:left-[75px] md:left-[120px] lg:left-[160px] xl:left-[205px] top-[10px] sm:top-[16px] lg:top-[30px] w-[50px] sm:w-[75px] md:w-[105px] lg:w-[130px] xl:w-[160px] object-contain pointer-events-none z-10"
       />
 
       {/* 3. Mid/Lower-Left White Cone */}
@@ -37,7 +37,7 @@ export default function CreatorCtaSection() {
         src={leftTriangularWhiteCone}
         alt=""
         aria-hidden="true"
-        className="absolute -left-[10px] sm:-left-[15px] lg:-left-[5px] top-[42%] sm:top-[47%] lg:top-[48%] w-[78px] sm:w-[100px] md:w-[120px] lg:w-[135px] object-contain pointer-events-none z-10"
+        className="absolute -left-[10px] sm:-left-[12px] md:-left-[10px] lg:-left-[8px] xl:-left-[5px] top-[42%] sm:top-[47%] lg:top-[48%] w-[45px] sm:w-[68px] md:w-[92px] lg:w-[115px] xl:w-[135px] object-contain pointer-events-none z-10"
       />
 
       {/* 4. Bottom-Left Lemon Circular Torus */}
@@ -45,7 +45,7 @@ export default function CreatorCtaSection() {
         src={leftCircularLemon}
         alt=""
         aria-hidden="true"
-        className="absolute -left-[20px] sm:-left-[30px] lg:-left-[-60px] -bottom-[20px] sm:-bottom-[28px] lg:-bottom-[10px] w-[165px] sm:w-[220px] md:w-[265px] lg:w-[315px] object-contain pointer-events-none z-10"
+        className="absolute -left-[15px] sm:-left-[25px] md:-left-[30px] lg:-left-[10px] xl:-left-[-60px] -bottom-[12px] sm:-bottom-[20px] lg:-bottom-[10px] w-[100px] sm:w-[150px] md:w-[205px] lg:w-[260px] xl:w-[315px] object-contain pointer-events-none z-10"
       />
 
       {/* ─── RIGHT 3D ORNAMENTS ─── */}
@@ -54,7 +54,7 @@ export default function CreatorCtaSection() {
         src={rightTriangularConeLemon}
         alt=""
         aria-hidden="true"
-        className="absolute right-[95px] sm:right-[140px] md:right-[175px] lg:right-[205px] top-[10px] sm:top-[14px] lg:top-[18px] w-[92px] sm:w-[125px] md:w-[150px] lg:w-[200px] object-contain pointer-events-none z-10"
+        className="absolute right-[45px] sm:right-[85px] md:right-[130px] lg:right-[165px] xl:right-[205px] top-[10px] sm:top-[14px] lg:top-[18px] w-[55px] sm:w-[85px] md:w-[120px] lg:w-[160px] xl:w-[200px] object-contain pointer-events-none z-10"
       />
 
       {/* 6. Far-Right White Squarish 3D Block */}
@@ -62,7 +62,7 @@ export default function CreatorCtaSection() {
         src={rightSquarishConeWhite}
         alt=""
         aria-hidden="true"
-        className="absolute -right-[20px] sm:-right-[30px] lg:-right-[10px] top-[2%] sm:top-[3%] w-[118px] sm:w-[155px] md:w-[185px] lg:w-[230px] object-contain pointer-events-none z-10"
+        className="absolute -right-[15px] sm:-right-[22px] md:-right-[25px] lg:-right-[18px] xl:-right-[10px] top-[2%] sm:top-[3%] w-[70px] sm:w-[105px] md:w-[145px] lg:w-[185px] xl:w-[230px] object-contain pointer-events-none z-10"
       />
 
       {/* 7. Bottom-Right Lemon Spiral */}
@@ -70,7 +70,7 @@ export default function CreatorCtaSection() {
         src={rightSpiralLemon}
         alt=""
         aria-hidden="true"
-        className="absolute right-[-15px] sm:right-[-20px] lg:right-[-5px] -bottom-[15px] sm:-bottom-[18px] lg:-bottom-[22px] w-[165px] sm:w-[215px] md:w-[255px] lg:w-[320px] object-contain pointer-events-none z-10"
+        className="absolute right-[-10px] sm:right-[-15px] md:right-[-15px] lg:right-[-10px] xl:right-[-5px] -bottom-[10px] sm:-bottom-[15px] lg:-bottom-[22px] w-[105px] sm:w-[145px] md:w-[200px] lg:w-[260px] xl:w-[320px] object-contain pointer-events-none z-10"
       />
 
       {/* ─── CENTER CONTENT ─── */}

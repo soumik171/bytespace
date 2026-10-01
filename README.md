@@ -2,11 +2,6 @@
 
 Frontend for the ByteSpace learning and creator platform, built from the Figma assessment design.
 
-## Live demo
-
-- Production URL: [bytespace-e068y62n8-soumiksarker8-8335s-projects.vercel.app](https://bytespace-e068y62n8-soumiksarker8-8335s-projects.vercel.app/)
-- Deployment URL: [bytespace-flame.vercel.app](https://bytespace-flame.vercel.app/)
-
 ## Overview
 
 This repository contains the landing page and both authentication pages (login and register) built with React and Tailwind CSS. The layout is responsive across desktop, laptop (tested on 14" to 16" displays), tablet, and mobile screens.

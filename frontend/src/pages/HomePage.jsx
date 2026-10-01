@@ -6,6 +6,7 @@ import PartnerSection from '../components/home/PartnerSection';
 import ExploreCategoriesSection from '../components/home/ExploreCategoriesSection';
 import CoursesCatalogSection from '../components/home/CoursesCatalogSection';
 import GrowthFeaturesSection from '../components/home/GrowthFeaturesSection';
+import CreatorCtaSection from '../components/home/CreatorCtaSection';
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
         <CoursesCatalogSection />
         <ExploreCategoriesSection />
         <GrowthFeaturesSection />
+        <CreatorCtaSection />
       </main>
 
       <Footer />

@@ -5,6 +5,7 @@ import HeroSection from '../components/home/HeroSection';
 import PartnerSection from '../components/home/PartnerSection';
 import ExploreCategoriesSection from '../components/home/ExploreCategoriesSection';
 import CoursesCatalogSection from '../components/home/CoursesCatalogSection';
+import GrowthFeaturesSection from '../components/home/GrowthFeaturesSection';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <PartnerSection />
         <CoursesCatalogSection />
         <ExploreCategoriesSection />
+        <GrowthFeaturesSection />
       </main>
 
       <Footer />

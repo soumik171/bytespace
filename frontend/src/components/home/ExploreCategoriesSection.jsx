@@ -19,7 +19,7 @@ const CATEGORIES = [
 
 export default function ExploreCategoriesSection({ onSelectCategory }) {
   return (
-    <section className="w-full bg-white select-none pt-2 sm:pt-4 md:pt-6 pb-14 sm:pb-16 md:pb-20 lg:pb-24">
+    <section className="w-full bg-white select-none pt-2 sm:pt-4 md:pt-6 pb-12 sm:pb-14 md:pb-16 lg:pb-18">
       <div className="w-full max-w-[1200px] xl:max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading & Subtitle */}
         <div className="text-center max-w-[880px] mx-auto mb-8 sm:mb-10 lg:mb-12">

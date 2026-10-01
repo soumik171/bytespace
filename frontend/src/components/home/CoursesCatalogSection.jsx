@@ -148,16 +148,16 @@ export default function CoursesCatalogSection() {
   const displayCourses = filtered.length > 0 ? filtered : COURSES;
 
   return (
-    <section className="w-full bg-white py-16 sm:py-20 md:py-24 lg:py-28 select-none">
-      <div className="w-full max-w-[1440px] xl:max-w-[1536px] mx-auto px-6 sm:px-10 lg:px-14 xl:px-20">
+    <section className="w-full bg-white pt-8 sm:pt-10 md:pt-12 lg:pt-14 pb-6 sm:pb-8 md:pb-10 lg:pb-12 select-none">
+      <div className="w-full max-w-[1240px] xl:max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading & Subtitle */}
-        <div className="text-center max-w-[960px] mx-auto mb-10 sm:mb-12 lg:mb-14">
-          <h2 className="font-['Poppins',sans-serif] text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[55px] font-semibold text-neutral-950 leading-[1.14] tracking-[-0.025em] mb-5 sm:mb-6">
+        <div className="text-center max-w-[880px] mx-auto mb-8 sm:mb-10 lg:mb-12">
+          <h2 className="font-['Poppins',sans-serif] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[44px] font-semibold text-neutral-950 leading-[1.2] tracking-[-0.025em] mb-3 sm:mb-4">
             Discover Your Passion,
             <br />
             Build Your Skills
           </h2>
-          <p className="font-['Satoshi',sans-serif] text-[15px] sm:text-[16.5px] lg:text-[17.5px] text-[#717680] leading-[1.65] max-w-[960px] mx-auto font-normal">
+          <p className="font-['Satoshi',sans-serif] text-[13.5px] sm:text-[14.5px] md:text-[15.5px] lg:text-[16px] text-[#717680] leading-[1.65] max-w-[860px] mx-auto font-normal">
             At Bytespace Courses, we bring you closer to life-changing knowledge. Explore a variety of courses across different
             <br className="hidden md:inline" /> fields, from technology to the arts, and make a difference in your career and life.
           </p>

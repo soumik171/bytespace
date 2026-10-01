@@ -15,7 +15,7 @@ const partners = [
 
 export default function PartnerSection() {
   return (
-    <section className="w-full bg-[#F5F5F6] py-10 sm:py-12 md:py-16 lg:py-20 select-none">
+    <section className="w-full bg-[#F5F5F6] py-6 sm:py-7 md:py-8 lg:py-9 select-none">
       <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
         <div className="flex items-center justify-center sm:justify-between flex-wrap gap-8 sm:gap-6 md:gap-8 lg:gap-12">
           {partners.map((partner) => (

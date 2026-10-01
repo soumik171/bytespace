@@ -84,13 +84,13 @@ export default function HeroSection({ onSearch }) {
 
       {/* ─── UPPER TEXT CONTENT (Title, Subtitle, Search) ─── */}
       <div className="relative z-20 w-full flex flex-col items-center text-center pt-8 sm:pt-10 md:pt-12 lg:pt-14 px-4">
-        <h1 className="font-['Poppins',sans-serif] text-[38px] sm:text-[50px] md:text-[60px] lg:text-[74px] font-semibold text-white leading-[1.12] tracking-[-0.02em] m-0">
+        <h1 className="font-['Poppins',sans-serif] text-[30px] sm:text-[40px] md:text-[50px] lg:text-[64px] xl:text-[72px] font-semibold text-white leading-[1.14] tracking-[-0.02em] m-0">
           Get Access to Hundreds
           <br />
           Courses Available
         </h1>
 
-        <p className="font-['Satoshi',sans-serif] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white/90 leading-[1.45] max-w-[620px] md:max-w-none md:whitespace-nowrap m-0 mt-6 sm:mt-7 lg:mt-8">
+        <p className="font-['Satoshi',sans-serif] text-[13.5px] sm:text-[14.5px] md:text-[15.5px] lg:text-[17px] text-white/90 leading-[1.5] max-w-[620px] md:max-w-none md:whitespace-nowrap m-0 mt-5 sm:mt-6 lg:mt-7">
           Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
         </p>
 

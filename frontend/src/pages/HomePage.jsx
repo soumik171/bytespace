@@ -3,6 +3,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import HeroSection from '../components/home/HeroSection';
 import PartnerSection from '../components/home/PartnerSection';
+import ExploreCategoriesSection from '../components/home/ExploreCategoriesSection';
 import CoursesCatalogSection from '../components/home/CoursesCatalogSection';
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
         <HeroSection />
         <PartnerSection />
         <CoursesCatalogSection />
+        <ExploreCategoriesSection />
       </main>
 
       <Footer />

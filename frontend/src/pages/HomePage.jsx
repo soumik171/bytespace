@@ -3,6 +3,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import HeroSection from '../components/home/HeroSection';
 import PartnerSection from '../components/home/PartnerSection';
+import CoursesCatalogSection from '../components/home/CoursesCatalogSection';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <main className="flex-1 w-full bg-white">
         <HeroSection />
         <PartnerSection />
+        <CoursesCatalogSection />
       </main>
 
       <Footer />

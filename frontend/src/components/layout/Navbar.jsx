@@ -13,7 +13,7 @@ export default function Navbar({ variant = 'white' }) {
   ];
 
   return (
-    <header className="relative w-full h-30 z-50 bg-primary-600 bg-[linear-gradient(to_right,rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-size-[80px_80px] flex items-center antialiased">
+    <header className="relative w-full h-30 z-50 bg-primary-800 bg-[linear-gradient(to_right,rgba(255,255,255,0.18)_1.5px,transparent_1.5px),linear-gradient(to_bottom,rgba(255,255,255,0.18)_1.5px,transparent_1.5px)] bg-[size:120px_120px] flex items-center antialiased">
       <div className="w-full max-w-[1440px] mx-auto px-5 sm:px-6 lg:px-8 xl:px-10 2xl:px-[50px]">
         <div className="flex items-center justify-between w-full">
           {/* Brand Logo (Exact Figma: W 171, H 37) */}

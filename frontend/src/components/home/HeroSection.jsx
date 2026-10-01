@@ -20,7 +20,7 @@ export default function HeroSection({ onSearch }) {
 
   return (
     <section
-      className="relative w-full bg-primary-600 bg-[linear-gradient(to_right,rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[size:80px_80px] overflow-hidden text-white antialiased select-none"
+      className="relative w-full bg-primary-800 bg-[linear-gradient(to_right,rgba(255,255,255,0.18)_1.5px,transparent_1.5px),linear-gradient(to_bottom,rgba(255,255,255,0.18)_1.5px,transparent_1.5px)] bg-[size:120px_120px] overflow-hidden text-white antialiased select-none"
       style={{ minHeight: "900px" }}
     >
       {/*

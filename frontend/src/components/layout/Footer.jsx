@@ -38,9 +38,9 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-white text-black pt-[71px] pb-[48px] font-['Satoshi',sans-serif] antialiased">
-      <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-[120px]">
+      <div className="w-full max-w-[1440px] mx-auto px-5 sm:px-6 lg:px-8 xl:px-10 2xl:px-[50px]">
         {/* Main Footer Container: Exact Figma 1200px x 406px Hug */}
-        <div className="w-full max-w-[1200px] mx-auto flex flex-col justify-between min-h-[406px] gap-12 xl:gap-[105px]">
+        <div className="w-full flex flex-col justify-between min-h-[406px] gap-12 xl:gap-[105px]">
           {/* Top Section: Exact Figma 1200px x 234px Hug */}
           <div className="w-full flex flex-col xl:flex-row justify-between items-start gap-12 xl:gap-[92px]">
             {/* Left Column: Exact Figma W 528px Hug x H 234px Hug, Gap: 45px */}

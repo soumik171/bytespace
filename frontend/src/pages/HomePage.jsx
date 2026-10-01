@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import HeroSection from '../components/home/HeroSection';
 
 export default function HomePage() {
   return (
@@ -8,7 +9,7 @@ export default function HomePage() {
       <Navbar />
 
       <main className="flex-1 w-full bg-primary-600">
-        {/* Placeholder cleared: Hero section components with exact Figma coordinates and assets to be placed here */}
+        <HeroSection />
       </main>
 
       <Footer />
